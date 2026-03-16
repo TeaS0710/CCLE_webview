@@ -394,19 +394,8 @@ function buildContact() {
   byId('contact-languages').textContent = p.languages.map(x => x.language).join(' · ');
 }
 
-const MOBILE_NAV_BREAKPOINT = 100;
-
 function setupNav() {
-  const links = $$('.rail-nav a, .mobile-nav a');
-  links.forEach(link => {
-    link.addEventListener('click', () => {
-      const nav = byId('mobile-nav');
-      if (window.innerWidth <= MOBILE_NAV_BREAKPOINT) {
-        nav.hidden = true;
-        byId('mobile-toggle').setAttribute('aria-expanded', 'false');
-      }
-    });
-  });
+  const links = $$('.rail-nav a');
 
   const sections = $$('main .section');
   const observer = new IntersectionObserver((entries) => {
@@ -432,23 +421,6 @@ function revealRefresh() {
   $$('.reveal').forEach(el => revealObserver.observe(el));
 }
 
-function setupMobile() {
-  const toggle = byId('mobile-toggle');
-  const nav = byId('mobile-nav');
-  toggle.addEventListener('click', () => {
-    const expanded = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!expanded));
-    nav.hidden = expanded;
-  });
-
-  window.addEventListener('resize', () => {
-    if (window.innerWidth > MOBILE_NAV_BREAKPOINT) {
-      nav.hidden = true;
-      toggle.setAttribute('aria-expanded', 'false');
-    }
-  });
-}
-
 function boot() {
   normalise();
   buildHero();
@@ -460,7 +432,6 @@ function boot() {
   buildDetails();
   buildContact();
   setupNav();
-  setupMobile();
   revealRefresh();
 }
 

@@ -394,7 +394,7 @@ function buildContact() {
   byId('contact-languages').textContent = p.languages.map(x => x.language).join(' · ');
 }
 
-const MOBILE_NAV_BREAKPOINT = 750;
+const MOBILE_NAV_BREAKPOINT = 100;
 
 function setupNav() {
   const links = $$('.rail-nav a, .mobile-nav a');

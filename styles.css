@@ -340,7 +340,7 @@ main {
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .56s ease, transform .56s ease; }
 .reveal.is-visible { opacity: 1; transform: translateY(0); }
 
-@media (min-width: 751px) {
+@media (min-width: 101px) {
   body { padding-right: calc(var(--dock-w) + 32px); }
   .section-head h2 { text-wrap: balance; }
   .detail-card, .contact-card, .cap-card, .experience-card, .trajectory-card, .sector-card, .info-card {
@@ -351,7 +351,7 @@ main {
   main { width: min(1220px, calc(100vw - (var(--page-pad) * 2))); }
   .hero-grid { grid-template-columns: minmax(0, 1.2fr) minmax(19rem, .75fr); }
 }
-@media (max-width: 750px) {
+@media (max-width: 100px) {
   body { padding-right: 0; }
   .side-dock { display: none; }
   .mobile-bar {

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cécile Vergne — entrepreneuriat, import-export, terrain, hôtellerie et coordination opérationnelle.">
+  <title>Cécile Vergne — Parcours professionnel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <aside class="side-dock" aria-label="Navigation principale">
+    <div class="dock-card">
+      <a href="#hero" class="dock-home" title="Retour en haut" aria-label="Retour en haut">CV</a>
+      <nav class="rail-nav dock-nav">
+        <a href="#hero" class="dock-dot" title="Intro" aria-label="Intro"><span class="sr-only">Intro</span></a>
+        <a href="#trajectory" class="dock-dot" title="Trajectoire" aria-label="Trajectoire"><span class="sr-only">Trajectoire</span></a>
+        <a href="#sectors" class="dock-dot" title="Secteurs" aria-label="Secteurs"><span class="sr-only">Secteurs</span></a>
+        <a href="#experience" class="dock-dot" title="Expériences" aria-label="Expériences"><span class="sr-only">Expériences</span></a>
+        <a href="#capabilities" class="dock-dot" title="Capacités" aria-label="Capacités"><span class="sr-only">Capacités</span></a>
+        <a href="#details" class="dock-dot" title="Repères" aria-label="Repères"><span class="sr-only">Repères</span></a>
+        <a href="#contact" class="dock-dot" title="Contact" aria-label="Contact"><span class="sr-only">Contact</span></a>
+      </nav>
+      <a class="dock-mail" id="dock-mail" href="#" title="Envoyer un email" aria-label="Envoyer un email">@</a>
+    </div>
+  </aside>
+
+  <header class="mobile-bar">
+    <a href="#hero" class="mobile-brand">Cécile Vergne</a>
+    <button class="mobile-toggle" id="mobile-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav">Menu</button>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" hidden aria-label="Navigation mobile">
+    <a href="#hero">Intro</a>
+    <a href="#trajectory">Trajectoire</a>
+    <a href="#sectors">Secteurs</a>
+    <a href="#experience">Expériences</a>
+    <a href="#capabilities">Capacités</a>
+    <a href="#details">Repères</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main id="main">
+    <section class="hero panel panel-hero section" id="hero">
+      <div class="section-bg theme-corporate" aria-hidden="true"></div>
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Profil</p>
+          <h1 id="hero-name">Cécile Vergne</h1>
+          <p class="hero-manifest" id="hero-manifest"></p>
+          <p class="hero-summary" id="hero-summary"></p>
+          <div class="hero-actions">
+            <a class="button primary" href="#experience">Voir le parcours</a>
+            <a class="button secondary" href="#contact">Contacter</a>
+          </div>
+        </div>
+
+        <div class="hero-side reveal">
+          <article class="info-card">
+            <p class="card-label">Repères rapides</p>
+            <div class="stats" id="hero-stats"></div>
+          </article>
+          <article class="info-card accent-card">
+            <p class="card-label">Point fort</p>
+            <h2 id="hero-focus-title"></h2>
+            <p id="hero-focus-text"></p>
+          </article>
+        </div>
+      </div>
+
+      <div class="ribbon reveal" id="hero-ribbon"></div>
+    </section>
+
+    <section class="section" id="trajectory">
+      <div class="section-head reveal">
+        <p class="eyebrow">Trajectoire</p>
+        <h2>Une trajectoire orientée exécution, pas une addition de postes.</h2>
+        <p class="section-lead" id="trajectory-lead"></p>
+      </div>
+      <div class="trajectory-grid" id="trajectory-grid"></div>
+    </section>
+
+    <section class="section panel" id="sectors">
+      <div class="section-bg theme-bio" aria-hidden="true"></div>
+      <div class="section-head reveal">
+        <p class="eyebrow">Secteurs</p>
+        <h2>Des environnements différents, avec une même logique de continuité, de relation et de tenue opérationnelle.</h2>
+      </div>
+      <div class="sector-grid" id="sector-grid"></div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-head reveal">
+        <p class="eyebrow">Expériences</p>
+        <h2>Chaque séquence garde sa matière : rôle, contexte, géographie, tâches concrètes.</h2>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="experience-list" id="experience-list"></div>
+    </section>
+
+    <section class="section panel" id="capabilities">
+      <div class="section-bg theme-energy" aria-hidden="true"></div>
+      <div class="section-head reveal">
+        <p class="eyebrow">Capacités</p>
+        <h2>Ce qui peut être activé immédiatement dans une structure légère, un contexte mouvant ou une mission à forte autonomie.</h2>
+      </div>
+      <div class="capability-layout">
+        <div class="capability-column" id="capability-main"></div>
+        <div class="capability-column narrow" id="capability-side"></div>
+      </div>
+      <div class="utility-band reveal" id="utility-band"></div>
+    </section>
+
+    <section class="section" id="details">
+      <div class="section-head reveal">
+        <p class="eyebrow">Repères</p>
+        <h2>Formation, langues, outils, mobilité et recommandation.</h2>
+      </div>
+      <div class="details-grid">
+        <article class="detail-card reveal">
+          <h3>Formation</h3>
+          <ul class="detail-list" id="education-list"></ul>
+        </article>
+        <article class="detail-card reveal">
+          <h3>Cadre pratique</h3>
+          <ul class="detail-list" id="practical-list"></ul>
+        </article>
+        <article class="detail-card quote-card reveal">
+          <h3>Recommandation</h3>
+          <blockquote id="endorsement-text"></blockquote>
+          <p class="quote-source" id="endorsement-source"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section panel contact-panel" id="contact">
+      <div class="section-bg theme-corporate" aria-hidden="true"></div>
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Un point d’entrée simple et direct.</h2>
+          <p id="contact-copy"></p>
+          <div class="hero-actions">
+            <a class="button primary" id="email-cta" href="#">Envoyer un email</a>
+            <a class="button secondary" id="phone-cta" href="#">Appeler</a>
+          </div>
+        </div>
+        <div class="contact-card reveal">
+          <div class="contact-row"><span>Email</span><a id="email-link" href="#"></a></div>
+          <div class="contact-row"><span>Téléphone</span><a id="phone-link" href="#"></a></div>
+          <div class="contact-row"><span>Base</span><strong id="contact-location"></strong></div>
+          <div class="contact-row"><span>Langues</span><strong id="contact-languages"></strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

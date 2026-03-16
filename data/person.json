@@ -1,0 +1,58 @@
+{
+  "slug": "cecile-vergne",
+  "full_name": "Cécile Vergne",
+  "display_name": "Cécile Vergne",
+  "headline": "Entrepreneure et spécialiste des opérations, de la logistique et de l'import-export",
+  "summary": "Entrepreneure avec une solide expérience en import-export, distribution alimentaire, gestion de boutique et gestion opérationnelle de petites structures. A fondé et dirigé deux entreprises actives en France, en Europe, au Royaume-Uni et aux États-Unis. Compétences en ventes, logistique, relations fournisseurs, gestion des stocks, administration et service client. Habituée à travailler en autonomie, à gérer plusieurs tâches en même temps et à s’adapter rapidement.",
+  "job_search": {
+    "seeking": true,
+    "formats": [
+      "temps partiel",
+      "freelance",
+      "temps plein"
+    ],
+    "preferred_structures": [
+      "petite structure"
+    ],
+    "preferred_sectors": [
+      "alimentaire",
+      "vins",
+      "boutique",
+      "distribution",
+      "événements"
+    ]
+  },
+  "location": {
+    "city": "Saint-Maur-des-Fossés",
+    "postal_code": "94100",
+    "country": "France",
+    "display": "Saint-Maur-des-Fossés, 94100, France"
+  },
+  "contact": {
+    "phone": "+33 7 60 40 44 59",
+    "email": "teasources@live.fr"
+  },
+  "personal": {
+    "nationality": "française",
+    "driving_licence": "Permis B"
+  },
+  "languages": [
+    {
+      "language": "Français",
+      "level": "langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "level": "courant"
+    }
+  ],
+  "tools": [
+    "Windows",
+    "Linux",
+    "Excel",
+    "Word",
+    "PowerPoint",
+    "Outils en ligne",
+    "Outils IA"
+  ]
+}

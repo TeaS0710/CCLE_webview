@@ -1,0 +1,113 @@
+[
+  {
+    "id": "paradise-superfoods",
+    "role": "Fondatrice",
+    "company": "Paradise Superfoods",
+    "sector": "Boutique alimentaire premium",
+    "location": "Région du Mont-Blanc",
+    "start_year": 2015,
+    "end_year": 2020,
+    "description": [
+      "Gestion complète de la boutique : ventes, stocks, fournisseurs, service client.",
+      "Sourcing de produits d’Amérique du Sud et d’Afrique.",
+      "Organisation de dégustations, ateliers et événements.",
+      "Fidélisation de la clientèle et gestion administrative.",
+      "Fermeture liée au contexte économique du secteur alimentaire."
+    ],
+    "tags": [
+      "vente",
+      "gestion de boutique",
+      "stocks",
+      "fournisseurs",
+      "service client",
+      "événementiel",
+      "sourcing"
+    ]
+  },
+  {
+    "id": "teasources-europe",
+    "role": "Fondatrice",
+    "company": "Teasources Europe",
+    "sector": "Import-export",
+    "location": "France / Europe / Royaume-Uni / États-Unis",
+    "start_year": 2008,
+    "end_year": 2015,
+    "description": [
+      "Importation de produits de Chine, d’Amérique du Sud, de Turquie et d’Afrique.",
+      "Distribution en Europe, au Royaume-Uni et aux États-Unis.",
+      "Gestion logistique : douanes, transport, expéditions petites quantités.",
+      "Relations B2B avec boutiques, restaurants et distributeurs.",
+      "Gestion complète : administration, ventes, sourcing, opérations.",
+      "Arrêt d’activité dû à la crise du secteur pour les petites structures."
+    ],
+    "tags": [
+      "import-export",
+      "logistique",
+      "douanes",
+      "transport",
+      "B2B",
+      "distribution",
+      "administration",
+      "opérations"
+    ]
+  },
+  {
+    "id": "gmti",
+    "role": "Logistique terrain",
+    "company": "GMTI",
+    "sector": "Exploration pétrolière",
+    "location": "Philippines / Turquie / France",
+    "start_year": 2005,
+    "end_year": 2007,
+    "description": [
+      "Logistique terrain, déplacements, matériel, coordination sur site.",
+      "Travail autonome dans des environnements difficiles.",
+      "Organisation, réactivité et résolution de problèmes."
+    ],
+    "tags": [
+      "terrain",
+      "coordination",
+      "matériel",
+      "déplacements",
+      "autonomie",
+      "résolution de problèmes"
+    ]
+  },
+  {
+    "id": "hotellerie-haut-de-gamme",
+    "role": "Service client / réception / supervision housekeeping",
+    "company": "Hilton, Sofitel, Riverside",
+    "sector": "Hôtellerie haut de gamme (5 étoiles)",
+    "location": "France / Suisse / Chine",
+    "start_year": 1995,
+    "end_year": 2000,
+    "description": [
+      "Service client, réception, supervision housekeeping.",
+      "Standards élevés et gestion de la relation client."
+    ],
+    "tags": [
+      "hospitalité",
+      "réception",
+      "relation client",
+      "qualité de service"
+    ]
+  },
+  {
+    "id": "attic-tour",
+    "role": "Service client / réservations / opérations en ligne",
+    "company": "ATTIC Tour",
+    "sector": "Agence de voyages en ligne",
+    "location": "Séoul",
+    "start_year": 2000,
+    "end_year": 2004,
+    "description": [
+      "Service client, réservations, opérations en ligne."
+    ],
+    "tags": [
+      "tourisme",
+      "réservations",
+      "opérations",
+      "service client"
+    ]
+  }
+]

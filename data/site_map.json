@@ -1,0 +1,36 @@
+{
+  "recommended_pages": [
+    {
+      "slug": "/",
+      "title": "Accueil",
+      "purpose": "présentation synthétique, accroche, compétences clés, appel à contact"
+    },
+    {
+      "slug": "/a-propos",
+      "title": "À propos",
+      "purpose": "parcours, profil, style de travail"
+    },
+    {
+      "slug": "/experiences",
+      "title": "Expériences",
+      "purpose": "chronologie détaillée des expériences"
+    },
+    {
+      "slug": "/competences",
+      "title": "Compétences",
+      "purpose": "expertises, secteurs, outils, langues"
+    },
+    {
+      "slug": "/contact",
+      "title": "Contact",
+      "purpose": "coordonnées et disponibilité"
+    }
+  ],
+  "collections": [
+    "profile",
+    "experiences",
+    "education",
+    "skills",
+    "endorsement"
+  ]
+}
